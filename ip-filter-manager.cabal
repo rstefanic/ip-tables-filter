@@ -1,0 +1,21 @@
+name:                ip-filter-manager
+version:             0.1.0.0
+homepage:            https://github.com/githubuser/ip-filter-manager#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Robert Stefanic
+maintainer:          rstefanic72@gmail.com
+copyright:           2017 Robert Stefanic
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable ip-filter-manager
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , optparse-applicative
+                     , parsec
+                     , process

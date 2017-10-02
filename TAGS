@@ -1,0 +1,49 @@
+
+./src/Main.hs,1281
+module Main Main0,1
+data Options Options10,11
+data Options = OptionsOptions10,11
+    { optTest optTest11,12
+    , optInteractive optInteractive12,13
+    , optVerbose optVerbose13,14
+data Attempt Attempt18,19
+data Attempt = Attempt Attempt18,19
+instance instance20,21
+type CurrentLine CurrentLine24,25
+data Date Date28,29
+data Date = DateDate28,29
+    { month month29,30
+    , day day30,31
+data Time Time37,38
+data Time = TimeTime37,38
+    { hour hour38,39
+    , minute minute39,40
+    , second second40,41
+data IP IP50,51
+data IP = IP IP50,51
+readNumber readNumber65,66
+parseSRC parseSRC67,68
+parseSRC parseSRC68,69
+parseIP parseIP70,71
+parseIP parseIP71,72
+parseTime parseTime78,79
+parseTime parseTime79,80
+parseDate parseDate85,86
+parseDate parseDate86,87
+parseLine parseLine91,92
+parseLine parseLine92,93
+parseLog parseLog98,99
+parseLog parseLog99,100
+getTotalAttempts getTotalAttempts107,108
+getTotalAttempts getTotalAttempts108,109
+currentAttempts currentAttempts110,111
+currentAttempts currentAttempts111,112
+printCurrentAttempts printCurrentAttempts113,114
+printCurrentAttempts printCurrentAttempts114,115
+options options117,118
+options options118,119
+main main129,130
+main main130,131
+
+./Setup.hs,15
+main main1,2
